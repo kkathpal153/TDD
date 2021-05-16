@@ -4,14 +4,17 @@ This my solution for this TDD development.
 Before you start:
 
 ■ Try not to read ahead .
+
 ■ Do one task at a time. 
 The trick is to learn to work incrementally.
 
 ■ Make sure you only test for correct inputs. there is no need to test for invalid inputs for
 this kata
+
 ■ Test First!
+
 String Calculator
-1. In a test-first manner, create a simple class class StringCalculator
+1. In a test-first manner, create a simple class StringCalculator
    with a method public int Add(string numbers)
 1. The method can take 0, 1 or 2 numbers, and will return their sum
    (for an empty string it will return 0)
@@ -60,14 +63,17 @@ String Calculator
    };
 9. Numbers bigger than 1000 should be ignored, for example:
    2 + 1001 == 2
-10. Delimiters can be of any length with the following format:
+10. Delimiters can be of any length with the following format
+    
     “//[delimiter]\n”
     for example:
     “//[***]\n1***2***3” == 6
 11. Allow multiple delimiters like this:
+    
     “//[delim1][delim2]\n”
     for example
     “//[*][%]\n1*2%3” == 6.
 12. make sure you can also handle multiple delimiters with length longer than one char
     for example
+    
     “//[**][%%]\n1**2%%3” == 6.
